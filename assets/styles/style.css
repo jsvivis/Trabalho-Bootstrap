@@ -24,7 +24,12 @@ color: rgb(216, 140, 9);
     font-weight: bold;
     color: rgb(216, 140, 9);
 }
-
+.tituloCard3{   
+    font-family: 'roboto', sans-se;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(216, 140, 9);
+}
 
 .dropdown-item{
     background-color:rgb(70, 41, 3);
