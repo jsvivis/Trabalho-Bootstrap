@@ -14,21 +14,27 @@ body{
 }
 .tituloCard{
 font-family: 'roboto', sans-serif;
-font-size: 28px;
+font-size: 40px;
 font-weight: bold;
 color: rgb(216, 140, 9);
+justify-content: left;
+display: flex;
 }
 .tituloCard2{   
     font-family: 'roboto', sans-serif;
-    font-size: 28px;
+    font-size: 40px;
     font-weight: bold;
     color: rgb(216, 140, 9);
+    justify-content: left;
+    display: flex;
 }
 .tituloCard3{   
     font-family: 'roboto', sans-se;
-    font-size: 28px;
+    font-size: 45px;
     font-weight: bold;
+    justify-content: left;
     color: rgb(216, 140, 9);
+    display: flex;
 }
 
 .dropdown-item{
@@ -41,7 +47,7 @@ color: rgb(216, 140, 9);
 }
 
 .nav-item a{
-    color:rgb(155, 115, 5);
+    color:rgb(200, 149, 7);
     font-size: 20px;
 }
 
@@ -62,7 +68,7 @@ color: rgb(216, 140, 9);
     border-top: 0;
 }
 .carousel-item{
-    height: 695px;
+    height: 795px;
 }
 
 .carousel-item img{
@@ -120,7 +126,7 @@ color: rgb(216, 140, 9);
 
   .footer1, .infoFooter1 > a{
     background-color: rgb(29, 28, 28);
-    color: rgb(155, 115, 5);
+    color: rgb(200, 149, 7);
     margin-bottom: 10px;
 
   }
