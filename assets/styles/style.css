@@ -2,29 +2,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body{
-    font-family: 'roboto', 'Helvetica Neue',
-
+    font-family: 'roboto', 'Helvetica Neue';
+    background-color: rgb(70, 41, 3);
 }
 
 :root{
     --btBlack: #000;
     --btWhite: #fff;
-    --btOrange: #cd7f19;
+    --btOrange: #0f0f0f;
     --btGray: #4b4c4d;
+}
+.tituloCard{
+font-family: 'roboto', sans-serif;
+font-size: 28px;
+font-weight: bold;
+color: rgb(216, 140, 9);
+}
+.tituloCard2{   
+    font-family: 'roboto', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(216, 140, 9);
+}
 
- 
+
+.dropdown-item{
+    background-color:rgb(70, 41, 3);
+}
+
+.d-flex{
+    display: flex;
+    background-color: rgb(70, 41, 3);
+}
+
+.nav-item a{
+    color:rgb(155, 115, 5);
+    font-size: 20px;
 }
 
 .navbar-brand img{
-    width:80px;
+    width: 65px;
+    height: 65px;
 }
-
+.copyright{
+    display: flex; 
+   justify-content: center;
+    color: #0f0f0f;
+    padding-top: 2px;
+}
+.termos {
+    display: flex;
+    justify-content: space-around;
+    padding: 3px;
+    border-top: 0;
+}
 .carousel-item{
-    height: 500px;
+    height: 695px;
 }
 
 .carousel-item img{
-    /* width: 100%; */
+   /*  width: 100%; */
     height: 100%;
     /* recorta a imagem dentro do tamanho */
     object-fit: cover;
@@ -45,19 +82,19 @@ body{
 }
 
 .footer2{
-    padding: 20px 0;
+    padding: 1px;
 }
 
 .footer2, .rSociais{
     text-align: center;
-    padding-top: 25px;
-    color: --var(--btGray);
+    padding: 1px;
+    color: --var(--btblack);
     /* background-color: var(--btblack); */
 }
 
 .footer2 .rSociais a{
     font-size: 1.7rem;
-    border: 1px solid var(--btGray);
+    border: 1px solid var(--btBlack);
     width: 40px;
     height: 40px;
     line-height: 38px;
@@ -65,8 +102,8 @@ body{
     margin: 0 10px;
     text-align: center;
     border-radius: 50%;
-    color: var(--btGray);
-    margin-bottom: 20px;
+    color: var(--btBlack);
+    margin-bottom: 0px;
 
 }
 
@@ -77,8 +114,8 @@ body{
   } */
 
   .footer1, .infoFooter1 > a{
-    background-color: var(--btOrange);
-    color: var(--btWhite);
+    background-color: rgb(29, 28, 28);
+    color: rgb(155, 115, 5);
     margin-bottom: 10px;
 
   }
